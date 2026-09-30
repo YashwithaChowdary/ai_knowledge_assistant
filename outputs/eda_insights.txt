@@ -1,0 +1,15 @@
+CUSTOMER CHURN - FIVE EDA INSIGHTS
+============================================================
+
+Overall churn rate: 54.61%
+
+1. Contract coverage is limited in this local dataset: only 'Month-to-month' is represented, with a churn rate of 54.61%. Because no other contract type appears, this file cannot support a reliable between-contract churn comparison.
+
+2. Internet-service coverage is also limited: only 'Fiber optic' is represented, with a churn rate of 54.61%. Therefore this local file cannot support a reliable comparison across internet-service categories.
+
+3. Payment-method pattern: 'Electronic check' has the highest observed churn rate at 60.37%, while 'Credit card (automatic)' has the lowest at 41.64%. The difference is descriptive and should be validated before changing payment policy.
+
+4. Senior-citizen pattern: the observed churn rate is 57.86% for customers marked 'Yes' and 53.22% for customers marked 'No'. This is a descriptive difference, not a causal conclusion.
+
+5. Tenure pattern: the '0-6 months' group has the highest observed churn rate at 74.15%, while '49+ months' has the lowest at 29.32%. This suggests tenure is an important predictive signal in this dataset, but it does not establish causation.
+

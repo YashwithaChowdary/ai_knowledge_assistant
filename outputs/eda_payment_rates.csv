@@ -1,0 +1,5 @@
+Payment Method,mean,count
+Electronic check,0.603672532517215,1307
+Mailed check,0.5074626865671642,201
+Bank transfer (automatic),0.45565749235474007,327
+Credit card (automatic),0.41638225255972694,293

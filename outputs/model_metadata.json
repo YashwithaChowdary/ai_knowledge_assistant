@@ -1,0 +1,201 @@
+{
+    "selected_model": "Logistic Regression",
+    "categorical_features": [
+        "Gender",
+        "Senior Citizen",
+        "Partner",
+        "Dependents",
+        "Multiple Lines",
+        "Online Security",
+        "Online Backup",
+        "Device Protection",
+        "Tech Support",
+        "Streaming TV",
+        "Streaming Movies",
+        "Paperless Billing",
+        "Payment Method",
+        "TenureGroup",
+        "IsNewCustomer"
+    ],
+    "numerical_features": [
+        "Tenure Months",
+        "Monthly Charges",
+        "Total Charges",
+        "AvgMonthlySpend",
+        "TotalServices"
+    ],
+    "constant_features_removed": [
+        "Phone Service",
+        "Internet Service",
+        "Contract"
+    ],
+    "feature_options": {
+        "Gender": {
+            "type": "categorical",
+            "values": [
+                "Female",
+                "Male"
+            ]
+        },
+        "Senior Citizen": {
+            "type": "categorical",
+            "values": [
+                "No",
+                "Yes"
+            ]
+        },
+        "Partner": {
+            "type": "categorical",
+            "values": [
+                "No",
+                "Yes"
+            ]
+        },
+        "Dependents": {
+            "type": "categorical",
+            "values": [
+                "Yes",
+                "No"
+            ]
+        },
+        "Phone Service": {
+            "type": "categorical",
+            "values": [
+                "Yes"
+            ]
+        },
+        "Multiple Lines": {
+            "type": "categorical",
+            "values": [
+                "No",
+                "Yes"
+            ]
+        },
+        "Internet Service": {
+            "type": "categorical",
+            "values": [
+                "Fiber optic"
+            ]
+        },
+        "Online Security": {
+            "type": "categorical",
+            "values": [
+                "No",
+                "Yes"
+            ]
+        },
+        "Online Backup": {
+            "type": "categorical",
+            "values": [
+                "No",
+                "Yes"
+            ]
+        },
+        "Device Protection": {
+            "type": "categorical",
+            "values": [
+                "No",
+                "Yes"
+            ]
+        },
+        "Tech Support": {
+            "type": "categorical",
+            "values": [
+                "No",
+                "Yes"
+            ]
+        },
+        "Streaming TV": {
+            "type": "categorical",
+            "values": [
+                "No",
+                "Yes"
+            ]
+        },
+        "Streaming Movies": {
+            "type": "categorical",
+            "values": [
+                "No",
+                "Yes"
+            ]
+        },
+        "Contract": {
+            "type": "categorical",
+            "values": [
+                "Month-to-month"
+            ]
+        },
+        "Paperless Billing": {
+            "type": "categorical",
+            "values": [
+                "Yes",
+                "No"
+            ]
+        },
+        "Payment Method": {
+            "type": "categorical",
+            "values": [
+                "Electronic check",
+                "Bank transfer (automatic)",
+                "Credit card (automatic)",
+                "Mailed check"
+            ]
+        },
+        "TenureGroup": {
+            "type": "categorical",
+            "values": [
+                "0-6 months",
+                "7-12 months",
+                "25-48 months",
+                "49+ months",
+                "13-24 months"
+            ]
+        },
+        "IsNewCustomer": {
+            "type": "categorical",
+            "values": [
+                "Yes",
+                "No"
+            ]
+        },
+        "Tenure Months": {
+            "type": "numeric",
+            "min": 1.0,
+            "max": 72.0,
+            "median": 16.0
+        },
+        "Monthly Charges": {
+            "type": "numeric",
+            "min": 67.75,
+            "max": 117.45,
+            "median": 86.0
+        },
+        "Total Charges": {
+            "type": "numeric",
+            "min": 68.5,
+            "max": 8061.5,
+            "median": 1393.65
+        },
+        "AvgMonthlySpend": {
+            "type": "numeric",
+            "min": 57.975,
+            "max": 121.4,
+            "median": 86.31924603174603
+        },
+        "TotalServices": {
+            "type": "numeric",
+            "min": 1.0,
+            "max": 8.0,
+            "median": 3.0
+        }
+    },
+    "risk_thresholds": {
+        "low_max": 0.3,
+        "medium_max": 0.6
+    },
+    "risk_actions": {
+        "High": "Prioritize the customer for retention review and proactive outreach.",
+        "Medium": "Consider proactive engagement, support follow-up, or targeted communication.",
+        "Low": "Continue normal service and monitoring."
+    }
+}

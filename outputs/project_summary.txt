@@ -1,0 +1,71 @@
+
+STUDENT PERFORMANCE PREDICTION PROJECT
+======================================
+
+Dataset
+-------
+File: exams.csv
+Rows after cleaning: 1000
+
+Target
+------
+overall_score
+
+The target is calculated as the average of:
+- math score
+- reading score
+- writing score
+
+Input Features
+--------------
+- gender
+- race/ethnicity
+- parental level of education
+- lunch
+- test preparation course
+
+Models
+------
+1. Linear Regression
+2. Random Forest Regressor
+
+Selected Model
+--------------
+Linear Regression
+
+Best Model Metrics
+------------------
+MAE  : 9.2754
+RMSE : 11.4547
+R2   : 0.2294
+
+Important Limitation
+--------------------
+The dataset does not contain:
+- study hours
+- attendance
+- previous grades
+- longitudinal student history
+
+Therefore, those factors are not used.
+
+Target leakage prevention
+-------------------------
+Math, reading, and writing scores are not used as
+model input features because they directly determine
+the overall_score target.
+
+Generated Outputs
+-----------------
+- cleaned_student_data.csv
+- model_comparison.csv
+- test_predictions.csv
+- feature_importance.csv
+- student_performance_model.pkl
+- overall_score_distribution.png
+- average_subject_scores.png
+- score_by_test_preparation.png
+- score_by_gender.png
+- score_by_parental_education.png
+- score_by_lunch.png
+- actual_vs_predicted.png

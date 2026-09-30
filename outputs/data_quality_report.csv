@@ -1,0 +1,39 @@
+Column,DataType,MissingValues,UniqueValues
+CustomerID,object,0,2128
+Count,int64,0,1
+Country,object,0,1
+State,object,0,1
+City,object,0,904
+Zip Code,int64,0,1289
+Lat Long,object,0,1289
+Latitude,float64,0,1289
+Longitude,float64,0,1288
+Gender,object,0,2
+Senior Citizen,object,0,2
+Partner,object,0,2
+Dependents,object,0,2
+Tenure Months,int64,0,72
+Phone Service,object,0,1
+Multiple Lines,object,0,2
+Internet Service,object,0,1
+Online Security,object,0,2
+Online Backup,object,0,2
+Device Protection,object,0,2
+Tech Support,object,0,2
+Streaming TV,object,0,2
+Streaming Movies,object,0,2
+Contract,object,0,1
+Paperless Billing,object,0,2
+Payment Method,object,0,4
+Monthly Charges,float64,0,686
+Total Charges,float64,0,2030
+Churn Label,object,0,2
+Churn Value,int64,0,2
+Churn Score,int64,0,83
+CLTV,int64,0,1639
+Churn Reason,object,0,21
+Churn,int64,0,2
+AvgMonthlySpend,float64,0,1985
+TenureGroup,category,0,5
+IsNewCustomer,object,0,2
+TotalServices,int64,0,8
