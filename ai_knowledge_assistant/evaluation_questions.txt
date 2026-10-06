@@ -1,0 +1,10 @@
+What is decomposition in computational thinking?
+What is abstraction in computer science?
+What is recursion?
+What is a base case in recursion?
+What is the purpose of testing and debugging?
+What is defensive programming?
+How does binary search work?
+What is the time complexity of selection sort?
+What is Big O notation?
+What is quantum entanglement?
