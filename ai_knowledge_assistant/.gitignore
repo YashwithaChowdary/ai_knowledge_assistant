@@ -21,3 +21,5 @@ outputs/
 # Local caches
 .cache/
 .huggingface/
+documents/
+knowledge_base/
