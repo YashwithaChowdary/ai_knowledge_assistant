@@ -1,0 +1,10 @@
+**/.venv/
+**/__pycache__/
+*.pyc
+.streamlit/
+*.log
+*.aux
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
